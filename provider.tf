@@ -13,7 +13,9 @@ provider "google" {
   #impersonate_service_account = "main-sa-having-actual-roles@myfirstdevopsproject-442307.iam.gserviceaccount.com"
 }
 
-backend "gcs" {
-bucket = "myfirstdevopsproject-442307"
-prefix = "terraform/state"
+terraform {
+  backend "gcs" {
+    bucket = "myfirstdevopsproject-442307"
+    prefix = "terraform/state"
+}
 }
