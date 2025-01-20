@@ -1,2 +1,4 @@
 README
 Created github actions pipeline for GCP infrastructure provisioning
+
+Removed few lines from the terraform.yml file
