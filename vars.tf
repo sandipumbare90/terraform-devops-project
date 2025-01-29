@@ -1,2 +1,2 @@
-project = "myfirstdevopsproject-442307"
-region = "europe-west4"
+project="myfirstdevopsproject-442307"
+region="europe-west4"
